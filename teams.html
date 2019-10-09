@@ -1,118 +1,158 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>NJ SwimStats</title>
 
-    <link rel="stylesheet" href="styles.css"/>
-  </head>
-  <body>
-      <header>
-          <h1 class="swimstats">NJ Swimstats</h1>
-          <nav>
-              <ul class="nav_links">
-                  <li><a href="index.html">Welcome</a><li>
-                  <li><a href="teams.html">Teams</a><li>
-                  <li><a href="qualifying-times.html">Qualifying Times</a><li>
-                  <li><a href="news.html">News</a><li>
-                  <li><a href="meets.html">Meets</a><li>
-              </ul>
-          </nav>
-      </header>
-      <hr>
-      <br>
+<head>
+	<title>NJ SwimStats</title>
+
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header>
+		<h1 class="swimstats">NJ Swimstats</h1>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">Welcome</a></li>
+				<li><a href="teams.html">Teams</a></li>
+				<li><a href="qualifying-times.html">Qualifying Times</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="meets.html">Meets</a></li>
+			</ul>
+		</nav>
+	</header>
+	<hr>
+	<br>
     <div>
       <h2>TEAMS</h2>
       <br>
-      <ol>
-        <h3 id="B">B</h3>
-        <li>Berkeley Aquatic Club</li>
-        <li>Bergen Barracuda Swim Club</li>
-        <li>Bayonne Mermaid Starfish Swim Club</li>
-        <li>BJCC Bridgewater Tide</li>
-        <h3 id="C">C</h3>
-        <li>Caldwell Center Cyclone Swim Team</li>
-        <li>Cougar Aquatic Team</li>
-        <li>Clifton Boys and Girls Club</li>
-        <li>Central Jersey Aquatic Club</li>
-        <h3 id="D">D</h3>
-        <li>Deep End Aquatics Swim Club</li>
-        <h3 id="E">E</h3>
-        <li>Eastern Express Swim Team</li>
-        <li>Elite Swim Club</li>
-        <h3 id="F">F</h3>
-        <li>Fanwood Scotch Plains YMCA</li>
-        <h3 id="H">H</h3>
-        <li>Hall Aquatic Club</li>
-        <li>Hamilton Aquatic Club</li>
-        <li>Hunterdon County YMCA</li>
-        <h3 id="J">J</h3>
-        <li>Jersey Coast Swim Club</li>
-        <li>Jersey Flyers Aquatic Club</li>
-        <li>Jersey Gator Swim Club</li>
-        <h3 id="L">L</h3>
-        <li>Lakeland hills Family YMCA</li>
-        <h3 id="M">M</h3>
-        <li>Madison Area YMCA Mariners</li>
-        <li>Metro Area Life Time</li>
-        <li>Monmouth Barracudas</li>
-        <li>Morris County Swim Club</li>
-        <li>Morris Center YMCA</li>
-        <li>Metuchen-Edison YMCA</li>
-        <li>Montclair YMCA Dolphins</li>
-        <h3 id="N">N</h3>
-        <li>New Jersey Bluestreaks</li>
-        <li>New Jersey Race Club</li>
-        <li>New Jersey Wave Swim Team</li>
-        <li>Newark Piranhas</li>
-        <h3 id="O">O</h3>
-        <li>Ocean County YMCA Tigersharks</li>
-        <h3 id="P">P</h3>
-        <li>Peddie Aquatic Association</li>
-        <li>Pennington Aquatic</li>
-        <li>Pioneer Aquatic Club INC.</li>
-        <li>Pirate Swim Club</li>
-        <li>Princeton Piranhas Swim Team</li>
-        <li>Princeton Tigers Aquatic Club</li>
-        <h3 id="R">R</h3>
-        <li>Red Bank YMCA</li>
-        <li>Red Hawk Swim Club</li>
-        <li>Raritan Valley YMCA</li>
-        <li>Rough Rider Aquatic Club</li>
-        <li>Ridgewood YMCA Breakers</li>
-        <li>Rutgers University Swimming</li>
-        <h3 id="S">S</h3>
-        <li>Scarlet Aquatics</li>
-        <li>Sea Dragons Swimming Club</li>
-        <li>Sino-US Warriors Aquatic Club</li>
-        <li>Streamline Aquatics Club</li>
-        <li>Summit Area YMCA Seals</li>
-        <li>Seton Hall University Swimming</li>
-        <li>Sussex County YMCA</li>
-        <li>Somerset Hills YMCA</li>
-        <li>Skyy Swim Team</li>
-        <li>Stevens Sharks</li>
-        <li>Somerset Valley YMCA</li>
-        <h3 id="T">T</h3>
-        <li>The Atlantic Club</li>
-        <li>The Tidal Wave Swim Team</li>
-        <h3 id="W">W</h3>
-        <li>West Essex YMCA</li>
-        <li>Wave Runners</li>
-        <li>West Morris YMCA</li>
-        <li>Wyckoff YMCA</li>
-        <li>Whitewater Swimming</li>
-        <li>Westfield YMCA</li>
-        <h3 id="X">X</h3>
-        <li>X-Cel Swimming</li>
-        <h3 id="Y">Y</h3>
-        <li>YMCA of Western Monmouth County</li>
-      </ol>
+    <table id="table-teams">
+      <tbody>
+        <tr>
+         <td id="letter">B</td>
+        <td>Berkeley Aquatic Club</td>
+        <td>Bergen Barracuda Swim Club</td>
+        <td>Bayonne Mermaid Starfish Swim Club</td>
+        <td>BJCC Bridgewater Tide</td>
+        </tr>
+        <tr>
+         <td id="letter">C</td>
+        <td>Caldwell Center Cyclone Swim Team</td>
+        <td>Cougar Aquatic Team</td>
+        <td>Clifton Boys and Girls Club</td>
+        <td>Central Jersey Aquatic Club</td>
+        </tr>
+        <tr>
+         <td id="letter">D</td>
+        <td>Deep End Aquatics Swim Club</td>
+        </tr>
+        <tr>
+         <td id="letter">E</td>
+        <td>Eastern Express Swim Team</td>
+        <td>Elite Swim Club</td>
+        </tr>
+        <tr>
+         <td id="letter">F</td>
+        <td>Fanwood Scotch Plains YMCA</td>
+        </tr>
+        <tr>
+         <td id="letter">H</td>
+        <td>Hall Aquatic Club</td>
+        <td>Hamilton Aquatic Club</td>
+        <td>Hunterdon County YMCA</td>
+        </tr>
+        <tr>
+         <td id="letter">J</td>
+        <td>Jersey Coast Swim Club</td>
+        <td>Jersey Flyers Aquatic Club</td>
+        <td>Jersey Gator Swim Club</td>
+        </tr>
+        <tr>
+         <td id="letter">L</td>
+        <td>Lakeland hills Family YMCA</td>
+        </tr>
+        <tr>
+         <td id="letter">M</td>
+        <td>Madison Area YMCA Mariners</td>
+        <td>Metro Area Life Time</td>
+        <td>Monmouth Barracudas</td>
+        <td>Morris County Swim Club</td>
+        <td>Morris Center YMCA</td>
+        <td>Metuchen-Edison YMCA</td>
+        <td>Montclair YMCA Dolphins</td>
+        </tr>
+        <tr>
+         <td id="letter">N</td>
+        <td>New Jersey Bluestreaks</td>
+        <td>New Jersey Race Club</td>
+        <td>New Jersey Wave Swim Team</td>
+        <td>Newark Piranhas</td>
+        </tr>
+        <tr>
+         <td id="letter">O</td>
+        <td>Ocean County YMCA Tigersharks</td>
+        </tr>
+        <tr>
+         <td id="letter">P</td>
+        <td>Peddie Aquatic Association</td>
+        <td>Pennington Aquatic</td>
+        <td>Pioneer Aquatic Club INC.</td>
+        <td>Pirate Swim Club</td>
+        <td>Princeton Piranhas Swim Team</td>
+        <td>Princeton Tigers Aquatic Club</td>
+        </tr>
+        <tr>
+         <td id="letter">R</td>
+        <td>Red Bank YMCA</td>
+        <td>Red Hawk Swim Club</td>
+        <td>Raritan Valley YMCA</td>
+        <td>Rough Rider Aquatic Club</td>
+        <td>Ridgewood YMCA Breakers</td>
+        <td>Rutgers University Swimming</td>
+        </tr>
+        <tr>
+         <td id="letter">S</td>
+        <td>Scarlet Aquatics</td>
+        <td>Sea Dragons Swimming Club</td>
+        <td>Sino-US Warriors Aquatic Club</td>
+        <td>Streamline Aquatics Club</td>
+        <td>Summit Area YMCA Seals</td>
+        <td>Seton Hall University Swimming</td>
+        <td>Sussex County YMCA</td>
+        <td>Somerset Hills YMCA</td>
+        <td>Skyy Swim Team</td>
+        <td>Stevens Sharks</td>
+        <td>Somerset Valley YMCA</td>
+        </tr>
+        <tr>
+         <td id="letter">T</td>
+        <td>The Atlantic Club</td>
+        <td>The Tidal Wave Swim Team</td>
+        </tr>
+        <tr>
+        <td id="letter">W</td>
+        <td>West Essex YMCA</td>
+        <td>Wave Runners</td>
+        <td>West Morris YMCA</td>
+        <td>Wyckoff YMCA</td>
+        <td>Whitewater Swimming</td>
+        <td>Westfield YMCA</td>
+        </tr>
+        <tr>
+         <td id="letter">X</td>
+        <td>X-Cel Swimming</td>
+        </tr>
+        <tr>
+        <td id="letter">Y</td>
+        <td>YMCA of Western Monmouth County</td>
+        </tr>
+      </tbody>
+    </table>
     </div>
     <div>
       <footer>
-        Copyright 2019-2020
-        <a href="https://www.ucvts.tec.nj.us/Page/1">UCVTS Website</a> <a href="https://www.ucvts.tec.nj.us/site/Default.aspx?PageID=471">AIT Website</a>
+        <p class="footer">Copyright 2019-2020</p>
+        <a href="https://www.ucvts.tec.nj.us/Page/1">UCVTS Website</a><a href="https://www.ucvts.tec.nj.us/site/Default.aspx?PageID=471">AIT Website</a>
       </footer>
     </div>
   </body>
